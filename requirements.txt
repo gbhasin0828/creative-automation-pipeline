@@ -1,0 +1,17 @@
+# Core dependencies
+Pillow==10.1.0                 # Image processing (resize, crop, text overlay)
+PyYAML==6.0.1                  # YAML config parsing
+requests==2.31.0               # HTTP requests for API calls
+
+# GenAI Image Generation
+openai>=1.3.0                  # OpenAI DALL·E 3 / gpt-image-1 API
+
+# Optional but recommended
+python-dotenv==1.0.0           # Environment variable management
+jsonschema==4.20.0             # JSON validation for campaign briefs
+
+# CLI and utilities
+click==8.1.7                   # Optional CLI utilities
+
+# Web Interface
+streamlit>=1.33.0              # Simple web UI for pipeline interaction

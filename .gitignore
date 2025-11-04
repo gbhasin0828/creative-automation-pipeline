@@ -1,0 +1,105 @@
+# ========================
+# Python / Streamlit App
+# ========================
+
+# Env / secrets
+.env
+.envrc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.pixi/
+.pdm-python
+.pdm-build/
+
+# Python cache / compiled
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# Build / packaging
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Coverage / testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.hypothesis/
+cover/
+*.cover
+*.py.cover
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docs
+docs/_build/
+.site
+
+# IDE / Editor
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.cursorignore
+.cursorindexingignore
+
+# OS files / logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated assets (keep folders only)
+outputs/
+assets/generated/
+!outputs/.gitkeep
+!assets/.gitkeep
+
+# Temp / misc
+*.tmp
+*.json.tmp
+text.txt
+
+# Ruff cache
+.ruff_cache/
+
+# PDM / UV / Poetry (if ever used)
+pdm.lock
+pdm.toml
+uv.lock
+poetry.lock
+poetry.toml
